@@ -7,6 +7,7 @@ int sq(int num){
 int main(){
     int num;
     scanf("%d", &num);
-    printf("Square = %d", sq(num));
+    int result = sq(num);
+    printf("Square = %d", result);
     return 0;
 }
